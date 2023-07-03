@@ -1,0 +1,113 @@
+#puzzle {
+    width: 400px;
+    height: 450px;
+}
+
+.kon{
+    width: 100%;
+    height: 100px;
+    background-color: #141f40;
+}
+
+.center::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.mizu {
+    float: left;
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+}
+
+.ki {
+    float: left;
+    width: 150px;
+    height: 50px;
+    background-color: #dbd400;
+}
+
+.sora {
+    float: left;
+    width: 150px;
+    height: 100px;
+    background-color: #0093b7;
+}
+
+.orenzi {
+    float: right;
+    width: 100px;
+    height: 150px;
+    background-color: #ff9e6b;
+}
+
+.aka {
+    float: left;
+    width: 250px;
+    height: 100px;
+    background-color: #8c2727;
+}
+
+
+
+.kaki {
+    width: 100%;
+    height: 100px;
+    background-color: #d98d30;
+}
+
+@media screen and (max-width: 767px) {
+    #puzzle {
+        width: 300px;
+    }
+
+    .mizu {
+        width: 100px;
+    }
+
+    .ki {
+        width: 125px;
+    }
+
+    .sora {
+        width: 125px;
+    }
+
+    .orenzi {
+        width: 75px;
+    }
+
+    .aka {
+        width: 200px;
+    }
+    
+}
+
+@media screen and (max-width: 479px){
+    #puzzle {
+        width: 150px;
+    }
+
+    .mizu {
+        width: 150px;
+    }
+
+    .ki {
+        width: 150px;
+    }
+
+    .sora {
+        width: 150px;
+    }
+
+    .orenzi {
+        width: 150px;
+    }
+
+    .aka {
+        width: 150px;
+    }
+    
+}

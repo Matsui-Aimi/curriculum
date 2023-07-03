@@ -1,0 +1,53 @@
+@media screen and (max-width: 767px) {
+    #puzzle {
+        width: 300px;
+    }
+
+    .mizu {
+        width: 100px;
+    }
+
+    .ki {
+        width: 125px;
+    }
+
+    .sora {
+        width: 125px;
+    }
+
+    .orenzi {
+        width: 75px;
+    }
+
+    .aka {
+        width: 200px;
+    }
+    
+}
+
+@media screen and (max-width: 479px){
+    #puzzle {
+        width: 150px;
+    }
+
+    .mizu {
+        width: 150px;
+    }
+
+    .ki {
+        width: 150px;
+    }
+
+    .sora {
+        width: 150px;
+    }
+
+    .orenzi {
+        width: 150px;
+    }
+
+    .aka {
+        width: 150px;
+    }
+    
+}
