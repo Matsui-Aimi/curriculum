@@ -104,7 +104,7 @@ public class ExException {
 	 * ルール2: 例外発生時に設定するメッセージは、定義済みの定数から適当なものを指定してください。
 	 */
 	// ここへ記述
-	private static void nullError() {
+	private static void nullError() throws NullPointerException {
 		String string = null;
 		System.out.println(string);
 		throw new NullPointerException(CONST_MSG_NULLPO);
