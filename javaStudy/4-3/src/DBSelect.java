@@ -48,9 +48,9 @@ public class DBSelect {
 
             while (resultSet.next()) {
                 // 問⑥ それぞれカラム名を入力してください。
-                String column1 = resultSet.getString("商品IDのカラム名");
-                String column2 = resultSet.getString("商品名のカラム名");
-                int column3 = resultSet.getInt("単価のカラム名");
+                String column1 = resultSet.getString("shohin_id");
+                String column2 = resultSet.getString("shohin_name");
+                int column3 = resultSet.getInt("tanka");
 
                 System.out.print(column1 + ",");
                 System.out.print(column2 + ",");
